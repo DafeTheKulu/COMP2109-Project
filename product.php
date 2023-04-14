@@ -1,12 +1,11 @@
 <?php 
 /**
- * Template Name: Homepage
- * Template Post Type: page
+ * Template Name: Product
+ * Template Post Type: post
  */
 // Get the custom header
 get_header();
 ?>
-
 
 
 <?php
