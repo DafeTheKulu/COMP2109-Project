@@ -1,0 +1,33 @@
+/* Nav stylings, mostly from class */
+#menu-nav li a {
+	text-decoration: none;
+}
+
+#siteLogo {
+	width: 100px;
+	height: 100px;
+}
+header {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	background-color: #ee956c;
+}
+header div {
+	height: 115px;
+	flex-grow: 1;
+}
+
+.menu-main-container {
+	display: flex;
+	align-items: center;
+}
+.menu {
+	display: flex;
+	margin-top: 30px;
+	list-style: none;
+	align-items: center;
+}
+.menu li {
+	padding: 0px 10px;
+}

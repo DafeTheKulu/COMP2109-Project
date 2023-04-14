@@ -654,3 +654,12 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 		return __( ', ', 'twentytwentyone' );
 	}
 endif;
+
+// Enable shortcode in the text editor
+add_filter( 'widget_text', 'shortcode_unautop');
+add_filter( 'widget_text', 'do_shortcode');
+// Custom URL shortcode to redirect to the featured product
+function wp_shortURL() {
+	return 'http://localhost/CMSProject/product/potted-succulent/';
+	}
+	add_shortcode('featured', 'wp_shortURL');
